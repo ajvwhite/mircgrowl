@@ -1,0 +1,9 @@
+LIBRARY mircgrowl
+EXPORTS
+LoadDll					= _LoadDll@4
+UnloadDll				= _UnloadDll@4
+version					= _version@24
+notifyGeneral			= _notifyGeneral@24
+notifyChatMention		= _notifyChatMention@24
+notifyPrivateMsg		= _notifyPrivateMsg@24
+notifyTransferStatus	= _notifyTransferStatus@24
