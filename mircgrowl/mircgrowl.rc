@@ -77,15 +77,15 @@ BEGIN
     BEGIN
         BLOCK "080904b0"
         BEGIN
-            VALUE "Comments", "Plug-in programmed and managed by Alexander White"
+            VALUE "Comments", "Plug-in originally programmed by Alexander White ( https://github.com/ajvwhite/mircgrowl )"
             VALUE "CompanyName", "n/a"
-            VALUE "FileDescription", "mIRC Growl Notification Plug-in"
+            VALUE "FileDescription", "mIRCgrowl - mIRC Growl Notification Plug-in"
             VALUE "FileVersion", "1.0.0.10"
             VALUE "InternalName", "mircgrowl"
             VALUE "LegalCopyright", "Copyright (C) 2013"
             VALUE "OriginalFilename", "mircgrowl.dll"
             VALUE "PrivateBuild", "1, 0, 0, 10"
-            VALUE "ProductName", "mIRC Growl Notification Plug-in"
+            VALUE "ProductName", "mIRCgrowl - mIRC Growl Notification Plug-in"
             VALUE "ProductVersion", "1.0.0.10"
             VALUE "SpecialBuild", "1, 0, 0, 10"
         END

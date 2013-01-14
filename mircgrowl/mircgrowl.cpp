@@ -18,7 +18,7 @@ extern "C" {
 	}
 
 	mircDllFunc(version) {
-		mircret("mIRC Growl Notifications v1.0 - Written by Alexander White - git AT the-white-family DOT com");
+		mircret("mIRCgrowl - Growl Notifications for mIRC - v1.0 - Originally written by Alexander White ( https://github.com/ajvwhite/mircgrowl )");
 	}
 
 	mircDllFunc(notifyGeneral) {
