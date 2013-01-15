@@ -3,6 +3,12 @@
 ;; Useage  : Read commented lines below
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; Alias to get mIRCgrowl version info
+alias mircgrowlver {
+  var %mIRCgrowlVerInfo = $dll(mircgrowl.dll,version,null);
+  //echo %mIRCgrowlVerInfo
+}
+
 ;; this will let you know when your nickname is mentioned via the DLL
 on *:TEXT:$(* $+ $me $+ *):#:{
   var %growlnot $1- $+ $chr(32) $+ :: $+ $chr(32) $+ said by $+ $chr(32) $+ $nick $+ $chr(32) $+ :: $+ $chr(32) $+ $chan $+ $chr(32) $+ - $+ $chr(32) $+ $network $+ $chr(32) $+ :: $+ $chr(32) $+ $time
